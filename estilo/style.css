@@ -1,0 +1,258 @@
+
+
+body{
+    background-color: pink;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0 auto;
+    overflow-x: hidden;
+}
+/* section{
+    max-width: 900px;
+    margin: 0 auto;;
+} */
+
+header{
+    background-color: rgb(255, 67, 186);
+    width: 100%;
+    border: 10px rgb(255, 67, 186) solid;
+    margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+    color:aquamarine;
+    background-color: rgb(255, 67, 186);
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.Productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.TarjetaUno{
+    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-right: 25px;
+    border-bottom-width: 20px;
+    background-image: url(../imagenes/fondo-helados2.png);
+}
+
+.TarjetaDos{
+    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-right: 25px;
+    border-bottom-width: 20px;
+    background-image: url(../imagenes/fondo-helados2.png);
+}
+
+.TarjetaTres{
+    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-right: 25px;
+    border-bottom-width: 20px;
+    background-image: url(../imagenes/fondo-helados2.png);
+}
+
+.TarjetaCuatro{
+    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-right: 25px;
+    border-bottom-width: 20px;
+    background-image: url(../imagenes/fondo-helados2.png);
+}
+
+.TarjetaCinco{
+    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-right: 25px;
+    border-bottom-width: 20px;
+    background-image: url(../imagenes/fondo-helados2.png);
+}
+
+.ListaProductoUno{
+    background-color:pink;
+    width: 120px;
+    padding: 25px;
+    border: 4px rgb(208, 127, 255) solid;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.ListaProductoDos{
+    background-color:pink;
+    width: 120px;
+    padding: 25px;
+    border: 4px rgb(208, 127, 255) solid;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.ListaProductoTres{
+    background-color:pink;
+    width: 120px;
+    padding: 25px;
+    border: 4px rgb(208, 127, 255) solid;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.ListaProductoCuatro{
+    background-color:pink;
+    width: 120px;
+    padding: 25px;
+    border: 4px rgb(208, 127, 255) solid;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.helado{
+    width: 100%;
+    border: 3px aquamarine solid;
+}
+
+nav{
+    background-color: rgb(34, 187, 252);
+    width: 100%;
+    border: rgb(34, 187, 252) solid;
+    margin-top: 30px;
+}
+
+li{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.TituloUno{
+    text-align: center;
+    color: #03AED2;
+    background-color: rgb(252, 6, 108);
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.TituloDos{
+    text-align: center;
+    color: blueviolet;
+    background-color: rgb(109, 188, 240);
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.Parrafo{
+    color: rgb(149, 0, 255);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+}
+
+footer{
+    background-color: aqua;
+    width: 100%;
+    border: 10px aqua solid;
+    font-size: 20px;
+}
+
+.Fuentes{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/*
+Medidas de pantalla: Muy pequeño: <576px; Pequeño: >=576; Medianos: >=768; Grandes: >=992px; Muy grandes: >=1200
+*/
+
+@media(max-width: 768px){
+.Productos{
+    display: flex;
+    flex-flow: wrap ;
+}
+li{
+    font-size: 25px;
+}
+footer{
+    font-size: 25px;
+}
+p{
+    font-size: 25px;
+}
+
+}
+
+@media(max-width: 576px){
+
+.Productos{
+    display: flex;
+    flex-direction: column;
+   
+}
+.TarjetaUno{
+    display: flex;
+    justify-content: center;
+}
+.TarjetaDos{
+    display: flex;
+    justify-content: center;
+}
+.TarjetaTres{
+    display: flex;
+    justify-content: center;
+}
+.TarjetaCuatro{
+    display: flex;
+    justify-content: center;
+}
+.TarjetaCinco{
+    display: flex;
+    justify-content: center;
+}
+li{
+    font-size: 25px;
+}
+footer{
+    font-size: 25px;
+}
+p{
+    font-size: 25px;
+}
+
+}
